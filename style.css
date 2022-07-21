@@ -1,0 +1,50 @@
+.pagination-container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+}
+
+.pagination-link{
+    padding-right: 10px;
+}
+
+.pagination-btn {
+    min-width: 40px;
+}
+
+.posts-list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.item-post {
+    width: 400px;
+    min-height: 200px;
+    padding-top: 10px;
+    outline: 1px solid black;
+    text-align: center;
+}
+
+.page-descr{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.post-circle{
+    width: 50px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 1px solid black;
+    border-radius: 50%;
+    background-color: aquamarine;
+}
+
+.page-list-container{
+    padding-left: 50px;
+}
+
+.author-container{
+    padding: 20px 0 20px 0;
+}
